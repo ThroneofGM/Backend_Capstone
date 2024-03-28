@@ -1,3 +1,5 @@
+This is the capstone project for Meta Backend Developer Professional Certification.
+
 The api paths that are to be tested  are:
 /restaurant/menu/
 /restaurant/booking/
