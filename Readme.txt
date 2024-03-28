@@ -1,6 +1,13 @@
 This is the capstone project for Meta Backend Developer Professional Certification.
 
-Before testing, do create a virtual env, install the requirement.
+Before testing, do create a virtual env, install the requirement in the virtual env by running-
+pip install django
+pip install mysqlclient
+pip install djangorestframework
+pip install djoser
+
+pardon the inconvenience, as I used python -m venv to create the virtual env which does not create the pipfile.
+
 The api paths that are to be tested  are:
 /restaurant/menu/
 /restaurant/booking/
