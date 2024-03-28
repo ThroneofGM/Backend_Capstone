@@ -8,6 +8,12 @@ pip install djoser
 
 pardon the inconvenience, as I used python -m venv to create the virtual env which does not create the pipfile.
 
+The database is local so change in settings.py according to your local database settings.
+After that run the following commands:
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
 The api paths that are to be tested  are:
 /restaurant/menu/
 /restaurant/booking/
@@ -17,7 +23,5 @@ This was done as per the requirement in the exercise.
 Nonetheless, you can test it by creating a superuser: python manage.py createsuperuser,
 Give your own credentials.
 The one used by me is username:admin, password:littlelemon123!
-
-And the database is local.
 
 For testing the models and views run : python manage.py test
