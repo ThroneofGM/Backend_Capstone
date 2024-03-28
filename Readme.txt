@@ -1,5 +1,6 @@
 This is the capstone project for Meta Backend Developer Professional Certification.
 
+Before testing, do create a virtual env, install the requirement.
 The api paths that are to be tested  are:
 /restaurant/menu/
 /restaurant/booking/
