@@ -9,6 +9,7 @@ pip install djoser
 pardon the inconvenience, as I used python -m venv to create the virtual env which does not create the pipfile.
 
 The database is local so change in settings.py according to your local database settings.
+In models.py file, the field names may be different . Do adjust to match your local database.
 After that run the following commands:
 python manage.py makemigrations
 python manage.py migrate
